@@ -39,34 +39,30 @@ Google Earth Engine ➔ Environmental Variable Extraction ➔ MaxEnt Modeling �
 ---
 
 ## Repository Structure
+```text
 illegal-logging-risk-modeling-gee-maxent/
-│
 ├── gee_script/
-│ ├── distance_river.js
-│ ├── distance_road.js
-│ ├── elevation.js
-│ ├── landcover.js
-│ ├── ndvi.js
-│ ├── population_density.js
-│ └── slope.js
-│
+│   ├── distance_river.js
+│   ├── distance_road.js
+│   ├── elevation.js
+│   ├── landcover.js
+│   ├── ndvi.js
+│   ├── population_density.js
+│   └── slope.js
 ├── maxent_model/
-│ └── maxent_workflow.md
-│
+│   └── maxent_workflow.md
 ├── qgis_analysis/
-│ ├── illegal_logging_project.qgz
-│ └── qgis_workflow.md
-│
+│   ├── illegal_logging_project.qgz
+│   └── qgis_workflow.md
 ├── data/
-│ ├── data_pembalakan_preprocessing.csv
-│ ├── data SMART partol.xlsx
-│ └── data shp
-│
+│   ├── data_pembalakan_preprocessing.csv
+│   ├── data SMART partol.xlsx
+│   └── data shp/
 ├── results/
-│ ├── suitability_map.tif
-│ └── visualization.png
-│
+│   ├── suitability_map.tif
+│   └── visualization.png
 └── README.md
+```
 
 ---
 ## Google Earth Engine Stage
@@ -122,7 +118,7 @@ The resulting suitability map highlights areas with higher potential risk of ill
 ---
 
 ## Team Information
-This project was processed by Statistics undergraduate students during their internship at the Balai Taman Nasional Gunung Merbabu (Mount Merbabu National Park Office) in 2026.
+This project was processed by Statistics undergraduate students from Universitas Sebelas Maret during their internship at the Balai Taman Nasional Gunung Merbabu (Mount Merbabu National Park Office) in 2026.
 
 ---
 ## License
