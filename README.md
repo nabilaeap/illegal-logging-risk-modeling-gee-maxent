@@ -24,15 +24,7 @@ The study aims to understand environmental conditions that potentially influence
 
 ## Workflow
 
-Google Earth Engine
-↓
-Environmental Variable Extraction
-↓
-MaxEnt Modeling
-↓
-Suitability Map Generation
-↓
-QGIS Spatial Interpretation
+Google Earth Engine ➔ Environmental Variable Extraction ➔ MaxEnt Modeling ➔ Suitability Map Generation ➔ QGIS Spatial Interpretation
 
 ---
 
